@@ -1,0 +1,70 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+  main.cpp
+c:\users\nikhil\documents\visual studio 2015\projects\lumious\lumious-core\src\utils\timer.h(59): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  batchrenderer2d.cpp
+src\graphics\batchrenderer2d.cpp(88): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+src\graphics\batchrenderer2d.cpp(89): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+src\graphics\batchrenderer2d.cpp(90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+src\graphics\batchrenderer2d.cpp(91): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  buffer.cpp
+  indexbuffer.cpp
+  vertexarray.cpp
+  layer.cpp
+  simple2drenderer.cpp
+  shader.cpp
+  sprite.cpp
+  static_sprite.cpp
+  tilelayer.cpp
+  window.cpp
+  mat4.cpp
+src\maths\mat4.cpp(104): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  vec2.cpp
+  vec3.cpp
+  vec4.cpp
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewUnmapBuffer
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewMapBuffer
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+batchrenderer2d.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+vertexarray.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+shader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+shader.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform2f
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+shader.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+shader.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+shader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+shader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+shader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+shader.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform4f
+window.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+window.obj : error LNK2001: unresolved external symbol glfwSetFramebufferSizeCallback
+window.obj : error LNK2001: unresolved external symbol glfwSwapInterval
+window.obj : error LNK2001: unresolved external symbol glfwGetWindowUserPointer
+window.obj : error LNK2001: unresolved external symbol glfwGetFramebufferSize
+window.obj : error LNK2001: unresolved external symbol glfwTerminate
+window.obj : error LNK2001: unresolved external symbol glfwSetMouseButtonCallback
+window.obj : error LNK2001: unresolved external symbol glfwPollEvents
+window.obj : error LNK2001: unresolved external symbol glfwInit
+window.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+window.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+window.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+window.obj : error LNK2001: unresolved external symbol glfwSetWindowUserPointer
+window.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+window.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+window.obj : error LNK2001: unresolved external symbol __imp_glewInit
+C:\Users\nikhil\Documents\Visual Studio 2015\Projects\Lumious\bin\x64\Release\Lumious-core.exe : fatal error LNK1120: 46 unresolved externals
